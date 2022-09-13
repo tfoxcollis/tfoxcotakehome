@@ -12,10 +12,10 @@ const Dropdown = ( {setCleanArticles} ) => {
         id: index,
         title: result.title,
         description: result.abstract,
-        author: results.byline,
-        published: results.published_date,
-        link: results.short_url,
-        // image: results.multimedia[0]?.url
+        author: result.byline,
+        published: result.published_date,
+        link: result.short_url,
+        image: result.multimedia[0]?.url
       }
     })
   }
