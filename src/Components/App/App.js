@@ -3,6 +3,7 @@ import './App.css';
 import { Route } from "react-router-dom";
 import Dashboard from '../Dashboard/Dashboard';
 import Dropdown from '../Dropdown/Dropdown';
+import Articles from '../Articles/Articles'
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
       <Route exact path="/">
         <Dashboard />
         <Dropdown setArticles={setArticles}/>
+        <Articles articles={articles}/>
       </Route>
 {/* 
       <Route exact path="/showpage">
