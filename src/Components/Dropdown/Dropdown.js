@@ -15,7 +15,7 @@ const Dropdown = ( {setCleanArticles} ) => {
         author: result.byline,
         published: result.published_date,
         link: result.short_url,
-        image: result.multimedia[0]?.url
+        // image: result.multimedia[0]?.url
       }
     })
   }
