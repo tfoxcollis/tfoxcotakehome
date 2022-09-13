@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import Dashboard from '../Dashboard/Dashboard';
 import Dropdown from '../Dropdown/Dropdown';
 import Articles from '../Articles/Articles'
+import Showpage from '../Showpage/Showpage';
 
 const App = () => {
 
@@ -16,11 +17,11 @@ const App = () => {
         <Dropdown setCleanArticles={setCleanArticles}/>
         <Articles cleanArticles={cleanArticles}/>
       </Route>
-{/* 
+
       <Route exact path="/showpage">
-        <Nav />
+        {/* <Nav /> */}
         <Showpage />
-      </Route> */}
+      </Route>
       
     </div>
   )

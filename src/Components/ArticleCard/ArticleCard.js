@@ -1,19 +1,24 @@
 import React from 'react'
 import "./ArticleCard.css"
+import { Link } from 'react-router-dom';
 
-const ArticleCard = ({title, description, author, link, image, published, id}) => {
 
+const ArticleCard = (props) => {
+
+  const article = props.article
+  
   const splitDate = () => {
-    return published.split('T')[0]
-
+    return article.published.split('T')[0]
   }
 
   return (
-    <div className="article-card">
-      <h3>Title: {title}</h3>
-      <p>{author}</p>
-      <p>Published Date: {splitDate()}</p>
-    </div>
+    <Link to={{pathname:'/showpage', state:{article: article}}} >
+      <div className="article-card">
+        <h3>Title: {article.title}</h3>
+        <p>{article.author}</p>
+        <p>Published Date: {splitDate()}</p>
+      </div>
+    </Link>
   )
 }
 

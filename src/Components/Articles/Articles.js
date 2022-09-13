@@ -7,14 +7,8 @@ const Articles = ({cleanArticles}) => {
   const createCards = cleanArticles.map((article) => {
     return (
       <ArticleCard
-        title={article.title}
         key={article.id}
-        id={article.id}
-        description={article.description}
-        author={article.author}
-        link={article.link}
-        image={article.image}
-        published={article.published}
+        article={article}
       />
     )
    })
