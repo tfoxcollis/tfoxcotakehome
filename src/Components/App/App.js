@@ -7,14 +7,14 @@ import Articles from '../Articles/Articles'
 
 const App = () => {
 
-  const [articles, setArticles] = useState()
+  const [cleanArticles, setCleanArticles] = useState([])
 
   return (
     <div className="main">
       <Route exact path="/">
         <Dashboard />
-        <Dropdown setArticles={setArticles}/>
-        <Articles articles={articles}/>
+        <Dropdown setCleanArticles={setCleanArticles}/>
+        <Articles cleanArticles={cleanArticles}/>
       </Route>
 {/* 
       <Route exact path="/showpage">
