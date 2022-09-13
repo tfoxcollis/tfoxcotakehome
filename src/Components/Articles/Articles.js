@@ -5,12 +5,17 @@ const Articles = ({articles}) => {
 
   return (
     <div>
-     { articles.map((article, index) => {
+     { articles.map((article) => {
        return (
          <ArticleCard
          title={article.title}
-         key={index}
-
+         key={article.id}
+         id={article.id}
+         description={article.description}
+         author={article.author}
+         link={article.link}
+         image={article.image}
+         published={article.published}
          />
        )
       })
