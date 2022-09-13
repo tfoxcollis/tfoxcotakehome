@@ -1,0 +1,15 @@
+.article-card {
+  box-sizing: border-box;
+  border: 3px solid black;
+  padding: 10px;
+  width:17em;
+  height: 17em;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.article-text {
+  color: black;
+}

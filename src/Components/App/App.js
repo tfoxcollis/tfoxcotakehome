@@ -3,22 +3,25 @@ import './App.css';
 import { Route } from "react-router-dom";
 import Dashboard from '../Dashboard/Dashboard';
 import Dropdown from '../Dropdown/Dropdown';
+import Articles from '../Articles/Articles'
+import Showpage from '../Showpage/Showpage';
 
 const App = () => {
 
-  const [articles, setArticles] = useState()
+  const [cleanArticles, setCleanArticles] = useState([])
 
   return (
     <div className="main">
       <Route exact path="/">
         <Dashboard />
-        <Dropdown setArticles={setArticles}/>
+        <Dropdown setCleanArticles={setCleanArticles}/>
+        <Articles cleanArticles={cleanArticles}/>
       </Route>
-{/* 
+
       <Route exact path="/showpage">
-        <Nav />
+        {/* <Nav /> */}
         <Showpage />
-      </Route> */}
+      </Route>
       
     </div>
   )
