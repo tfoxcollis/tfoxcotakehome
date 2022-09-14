@@ -1,0 +1,155 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "Health",
+  "last_updated": "2022-09-12T09:16:19-04:00",
+  "num_results": 26,
+  "results": [
+      {
+          "section": "admin",
+          "subsection": "",
+          "title": "",
+          "abstract": "",
+          "url": "",
+          "uri": "nyt://embeddedinteractive/6cb185ed-65ac-50a5-ace3-5bab81934245",
+          "byline": "",
+          "item_type": "EmbeddedInteractive",
+          "updated_date": "2015-07-20T13:45:03-04:00",
+          "created_date": "2015-04-16T14:13:18-04:00",
+          "published_date": "2015-04-16T14:13:18-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": null,
+          "short_url": ""
+      },
+      {
+          "section": "magazine",
+          "subsection": "",
+          "title": "What a High-Risk Pregnancy Looks Like After Dobbs",
+          "abstract": "The photographer Stephanie Sinclair captured the newly unsettled world inside the Cleveland Clinic, where Ohio’s abortion laws have drastically changed maternal care.",
+          "url": "https://www.nytimes.com/2022/09/13/magazine/high-risk-pregnancy-dobbs.html",
+          "uri": "nyt://article/625f6f42-b3ba-5bc4-97c5-c2ff6572f865",
+          "byline": "By Stephanie Sinclair and Jaime Lowe",
+          "item_type": "Article",
+          "updated_date": "2022-09-13T19:05:55-04:00",
+          "created_date": "2022-09-13T19:05:55-04:00",
+          "published_date": "2022-09-13T19:05:55-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Abortion",
+              "Pregnancy and Childbirth",
+              "Law and Legislation",
+              "Women and Girls",
+              "Miscarriages"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [
+              "Ohio"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2022/09/18/magazine/18MAG-HIGHRISK-07/18MAG-HIGHRISK-07-superJumbo-v2.jpg",
+                  "format": "Super Jumbo",
+                  "height": 2048,
+                  "width": 1538,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The Cleveland Clinic offers some of the best care for high-risk pregnancies in America.",
+                  "copyright": ""
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/09/18/magazine/18MAG-HIGHRISK-07/18MAG-HIGHRISK-07-threeByTwoSmallAt2X-v2.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The Cleveland Clinic offers some of the best care for high-risk pregnancies in America.",
+                  "copyright": ""
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/09/18/magazine/18MAG-HIGHRISK-07/18MAG-HIGHRISK-07-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "The Cleveland Clinic offers some of the best care for high-risk pregnancies in America.",
+                  "copyright": ""
+              }
+          ],
+          "short_url": "https://nyti.ms/3BAtbmm"
+      },
+      {
+          "section": "health",
+          "subsection": "",
+          "title": "Susan L. Solomon, Crusader for Stem Cell Research, Dies at 71",
+          "abstract": "Vexed by lags in producing cures for diabetes and cancer, she helped raise $400 million to start a foundation that has made medical breakthroughs.",
+          "url": "https://www.nytimes.com/2022/09/13/health/susan-l-solomon-dead.html",
+          "uri": "nyt://article/f4ae78ec-1668-5ab7-ae4a-77f14c81d5b5",
+          "byline": "By Sam Roberts",
+          "item_type": "Article",
+          "updated_date": "2022-09-13T20:54:22-04:00",
+          "created_date": "2022-09-13T12:56:19-04:00",
+          "published_date": "2022-09-13T12:56:19-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Diabetes",
+              "Research",
+              "Stem Cells",
+              "Deaths (Obituaries)",
+              "Cancer"
+          ],
+          "org_facet": [
+              "New York Stem Cell Foundation",
+              "New York Stem Cell Foundation Research Institute"
+          ],
+          "per_facet": [
+              "Solomon, Susan L"
+          ],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2022/09/12/obituaries/12Solomon1/merlin_151019754_d352a8f4-5e27-43b2-9f06-506f19194e52-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Susan L. Solomon in 2019 at the New York Stem Cell Foundation Research Institute lab in Manhattan, which she co-founded.",
+                  "copyright": "Demetrius Freeman for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/09/12/obituaries/12Solomon1/merlin_151019754_d352a8f4-5e27-43b2-9f06-506f19194e52-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Susan L. Solomon in 2019 at the New York Stem Cell Foundation Research Institute lab in Manhattan, which she co-founded.",
+                  "copyright": "Demetrius Freeman for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/09/12/obituaries/12Solomon1/12Solomon1-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Susan L. Solomon in 2019 at the New York Stem Cell Foundation Research Institute lab in Manhattan, which she co-founded.",
+                  "copyright": "Demetrius Freeman for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/3xkZi6U"
+      }
+
+  ]
+
+}
