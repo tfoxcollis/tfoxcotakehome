@@ -1,5 +1,4 @@
 .showpage-container {
-  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -8,7 +7,7 @@
 
 .info-container {
   width: 40em;
-  min-height: 30em;
+  height: 30em;
   padding: 10px;
   display: flex;
   flex-direction: column;
