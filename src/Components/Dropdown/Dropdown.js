@@ -1,6 +1,7 @@
 import React from 'react'
 import Select from 'react-select'
 import fetchArticles from '../apiCalls'
+import "./Dropdown.css"
 
 const Dropdown = ( {setCleanArticles} ) => {
 
@@ -13,11 +14,25 @@ const Dropdown = ( {setCleanArticles} ) => {
         title: result.title,
         description: result.abstract,
         author: result.byline,
-        published: result.published_date,
+        published: splitDate(result.published_date),
         link: result.short_url,
-        image: result.multimedia[0]?.url
+        image: getImage(result.multimedia)
       }
     })
+  }
+
+  const getImage = (array) => {
+   if(array === null) {
+     return null
+   } else if(array.length > 0){
+     return array[0].url
+   } else {
+     return null
+   }
+  }
+
+  const splitDate = (date) => {
+    return date.split('T')[0]
   }
 
   const handleSelect = (e) => {
@@ -37,7 +52,9 @@ const Dropdown = ( {setCleanArticles} ) => {
 
   return (
     <div>
+      <h2>Select a Genre from the drop down below</h2>
       <Select 
+      className="select-dropdown"
       options={options} 
       onChange={(e) => handleSelect(e)}
       />
