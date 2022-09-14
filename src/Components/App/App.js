@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './App.css';
 import { Route } from "react-router-dom";
-import Dashboard from '../Dashboard/Dashboard';
 import Dropdown from '../Dropdown/Dropdown';
 import Articles from '../Articles/Articles'
 import Showpage from '../Showpage/Showpage';
 import Nav from '../Nav/Nav';
+import Sort from '../Sort/Sort';
 
 const App = () => {
 
@@ -14,8 +14,8 @@ const App = () => {
   return (
     <div className="main">
       <Route exact path="/">
-        <Dashboard />
         <Dropdown setCleanArticles={setCleanArticles}/>
+        <Sort cleanArticles={cleanArticles} setCleanArticles={setCleanArticles} />
         <Articles cleanArticles={cleanArticles}/>
       </Route>
 
