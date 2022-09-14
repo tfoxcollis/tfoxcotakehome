@@ -1,0 +1,13 @@
+.showpage-container {
+  border: 2px solid black;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.info-container {
+  border: 2px solid red;
+  width: 20em;
+  height: 20em;
+}
