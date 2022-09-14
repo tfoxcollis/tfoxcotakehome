@@ -5,6 +5,7 @@ import Dashboard from '../Dashboard/Dashboard';
 import Dropdown from '../Dropdown/Dropdown';
 import Articles from '../Articles/Articles'
 import Showpage from '../Showpage/Showpage';
+import Nav from '../Nav/Nav';
 
 const App = () => {
 
@@ -19,7 +20,7 @@ const App = () => {
       </Route>
 
       <Route exact path="/showpage">
-        {/* <Nav /> */}
+        <Nav />
         <Showpage />
       </Route>
       
