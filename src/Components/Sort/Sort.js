@@ -23,7 +23,7 @@ const Sort = ({cleanArticles, setCleanArticles}) => {
         Ascending order by date
       </button>
       <button onClick={descending}>
-      Ascending order by date
+        Descending order by date
       </button>
     </div>
   )
